@@ -1,0 +1,19 @@
+import React, { Component } from 'react';
+import { View } from 'react-native';
+import { Image } from 'react-native-elements';
+import {RegisterForm} from '../../../components/Auth';
+import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
+ 
+import {styles} from './RegisterScreen.style';
+
+export function RegisterScreen (){
+    return (
+      <KeyboardAwareScrollView>
+        <Image source={require('../../../../../assets/img/5-tenedores-letras-icono-logo.png')} style={styles.image}/>
+      
+        <View style={styles.content}>
+          <RegisterForm />
+        </View>
+      </KeyboardAwareScrollView>
+    )
+}
