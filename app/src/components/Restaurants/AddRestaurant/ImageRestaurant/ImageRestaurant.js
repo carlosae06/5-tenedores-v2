@@ -8,7 +8,6 @@ export function ImageRestaurant(props) {
     const {formik} = props;
     const principalImage = formik.values.images[0];
 
-    const a = 0;
   return (
     <View style={styles.content}>
        <Image 

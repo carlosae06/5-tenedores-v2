@@ -7,7 +7,7 @@ import {SearchStack} from './SearchStack';
 import {AccountStack} from './AccountStack';
 import { Icon } from 'react-native-elements';
 import { screen } from '../../app/src/utils';
-import { AddRestaurant } from '../../app/src/screens/Restaurants/AddRestaurantScreen/AddRestaurantScreen';
+import { AddRestaurantScreen } from '../../app/src/screens/Restaurants/AddRestaurantScreen/AddRestaurantScreen';
 const Tap = createBottomTabNavigator();
 export function AppNavigation() {
     return (
